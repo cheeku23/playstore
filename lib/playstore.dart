@@ -73,8 +73,8 @@ class PlayStore extends StatelessWidget {
               children: [
                 SizedBox(width: 10),
                 Container(
-                  height: 120,
-                  width: 120,
+                  height: 90,
+                  width: 90,
 
                   decoration: BoxDecoration(
                     border: Border.all(color: Colors.black),
@@ -89,8 +89,8 @@ class PlayStore extends StatelessWidget {
                 SizedBox(width: 20),
 
                 Container(
-                  height: 120,
-                  width: 120,
+                  height: 90,
+                  width: 90,
 
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(20),
@@ -103,8 +103,8 @@ class PlayStore extends StatelessWidget {
                 ),
                 SizedBox(width: 20),
                 Container(
-                  height: 120,
-                  width: 120,
+                  height: 90,
+                  width: 90,
 
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(20),
@@ -123,19 +123,19 @@ class PlayStore extends StatelessWidget {
                 SizedBox(width: 10),
                 Text(
                   "Grok-Ai\n Assistant\n 4.9\n",
-                  style: TextStyle(fontSize: 15),
+                  style: TextStyle(fontSize: 13),
                 ),
                 Icon(Icons.star, size: 15),
                 SizedBox(width: 10),
                 Text(
                   "WPS\n Office-PDF,Wor...\n 4.6\n",
-                  style: TextStyle(fontSize: 15),
+                  style: TextStyle(fontSize: 13),
                 ),
                 Icon(Icons.star, size: 15),
 
                 Text(
                   "PDF Reader- PDF\n Editor\n 4.8\n",
-                  style: TextStyle(fontSize: 15),
+                  style: TextStyle(fontSize: 13),
                   textDirection: TextDirection.ltr,
                 ),
                 Icon(Icons.star, size: 15),
